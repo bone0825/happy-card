@@ -28,6 +28,13 @@
 
 
 ## ER-Diagram
+<p align="center">
+<img src ="https://github.com/bone0825/happy-card/assets/88430215/62aa33a9-f82e-45c9-a19b-3151bee62bfb" align="center">
+</p>
+
+서비스 할 카드에 대한 정보를 담기 위해 **card**테이블을 작성하였다. 작성된 카드에 대한 정보를 담기 위해 **write_card**테이블을 작성하였다. <br>
+
+**write_card**에서 어떤 카드에서 내용이 작성되었는가에 대한 정보를 담기 위해 card_id를 **card**테이블로부터 FK로 받아와 저장하였다.
 
 ## 개발 환경
 
